@@ -4,7 +4,7 @@ test('basic test', () => {
     expect(result).toBe(4);
 });
 
-test('calculateTotal sum', () => {
++-/*st('calculateTotal sum wuthout discount', () => {
      const list = [
          {
              id: 456,
@@ -23,4 +23,4 @@ test('calculateTotal sum', () => {
      const result = calculateTotal(list);
      expect(result).toBe(2500)
 })
-
+*/
